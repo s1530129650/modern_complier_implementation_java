@@ -1,0 +1,14 @@
+# What to do in the morning
+  morning {
+      wake_up;
+      eat bacon;
+      brush_teeth;
+      wash hair=true minutes=10;
+  } 
+
+  # What to do in the evening
+  evening { 
+      read book="How To Be a Ninja";
+      brush_teeth;
+      sleep hours=8;
+  } 

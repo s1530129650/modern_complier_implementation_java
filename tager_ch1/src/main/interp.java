@@ -42,7 +42,9 @@ class interp {
   }
 
   public static void main(String args[]) throws java.io.IOException {
-     System.out.println(maxargs(prog.prog));
+     
+     System.out.println("maximum number of arguments of any print statement is "+maxargs(prog.prog));
+     System.out.println("the result of  interp is ");
      interp(prog.prog);
   }
 }
